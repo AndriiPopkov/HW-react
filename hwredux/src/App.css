@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  gap: 10px;
+}
+
+.card button {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid black;
+}
+
+.add {
+  background-color: green;
+}
+
+.rem {
+  background-color: red;
+}
+
+.basket_list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
